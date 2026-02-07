@@ -1,0 +1,11 @@
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore OS generated files
+Thumbs.db
