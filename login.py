@@ -1,15 +1,16 @@
 # login.py
+# Simple login module (no user input)
 
 def login():
     username = "admin"
-    password = "1234"
+    password = "admin123"
 
-    if username == "admin" and password == "1234":
+    if username == "admin" and password == "admin123":
         return "Login successful"
     else:
         return "Login failed"
 
 
-# calling the function
+# Calling the function
 result = login()
 print(result)
